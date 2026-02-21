@@ -2999,7 +2999,7 @@ header.main-header .header-sticky.active {
 
 .post-item-content h2 a {
   display: inline-block;
-  color: inherit;
+  color: #38b4cd;
 }
 
 /************************************/
@@ -10724,6 +10724,7 @@ header.main-header.header-stone .header-sticky.active {
   justify-content: space-between;
   gap: 30px;
   padding: 40px;
+  border-bottom: 4px solid #38b4cd;
 }
 
 .why-choose-brand-logo img {
@@ -12018,6 +12019,7 @@ header.main-header.header-stone .header-sticky.active {
   .why-choose-us-image-stone figure img,
   .why-choose-us-image-stone figure {
     height: auto;
+    margin-top: 20px;
   }
 
   .our-benefits-stone {
@@ -12838,4 +12840,10 @@ header.main-header.header-stone .header-sticky.active {
 .icon-box i {
   color: #36adc6;
   font-size: 20px;
+}
+.footer-newsletter-form-stone iframe {
+  border-radius: 10px;
+}
+.submenu .nav-item .nav-link {
+  color: white;
 }
