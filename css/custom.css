@@ -698,7 +698,7 @@ header.main-header .header-sticky.active {
   width: 100%;
   height: 3px;
   width: 22px;
-  background-color: var(--primary-color);
+  background-color: #fff;
   border-radius: 6px;
   margin: 4px auto !important;
   transition: all 0.1s ease-in-out;
@@ -706,10 +706,12 @@ header.main-header .header-sticky.active {
 
 .slicknav_icon .slicknav_icon-bar:first-child {
   margin-top: 0 !important;
+  background-color: white;
 }
 
 .slicknav_icon .slicknav_icon-bar:last-child {
   margin-bottom: 0 !important;
+  background-color: white;
 }
 
 .navbar-toggle
@@ -717,6 +719,7 @@ header.main-header .header-sticky.active {
   .slicknav_icon
   span.slicknav_icon-bar:nth-child(1) {
   transform: rotate(-45deg) translate(-5px, 5px);
+  background-color: white;
 }
 
 .navbar-toggle
@@ -731,6 +734,7 @@ header.main-header .header-sticky.active {
   .slicknav_icon
   span.slicknav_icon-bar:nth-child(3) {
   transform: rotate(45deg) translate(-5px, -5px);
+  background-color: white;
 }
 
 .slicknav_menu {
@@ -12846,4 +12850,12 @@ header.main-header.header-stone .header-sticky.active {
 }
 .submenu .nav-item .nav-link {
   color: white;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .responsive-menu ul li a {
+    color: white;
+  }
 }
