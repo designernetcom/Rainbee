@@ -13116,9 +13116,19 @@ header.main-header.header-stone .header-sticky.active {
 }
 .footer-copyright-text-stone p span {
   color: #38b4cd;
-   font-weight: bold;
+  font-weight: bold;
 }
 .footer-copyright-text-stone p a {
   color: #38b4cd;
   font-weight: bold;
+}
+.product_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .product_grid {
+    grid-template-columns: 1fr;
+  }
 }
