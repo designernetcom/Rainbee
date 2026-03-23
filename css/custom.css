@@ -5813,7 +5813,7 @@ header.main-header .header-sticky.active {
   }
 
   .testimonial-item {
-    min-height: 450px;
+    /* min-height: 450px; */
     padding: 30px;
   }
 
@@ -6047,9 +6047,9 @@ header.main-header .header-sticky.active {
     margin-top: 20px;
   }
 
-  .testimonial-item {
+  /* .testimonial-item {
     min-height: 400px;
-  }
+  } */
 
   .our-faqs-content {
     position: initial;
@@ -6466,9 +6466,9 @@ header.main-header .header-sticky.active {
     padding: 4px 14px;
   }
 
-  .our-testimonials {
+  /* .our-testimonials {
     padding: 50px 0;
-  }
+  } */
 
   .testimonial-client-content h3 {
     font-size: 18px;
