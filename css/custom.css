@@ -12528,7 +12528,7 @@ header.main-header.header-stone .header-sticky.active {
   }
 
   .benefits-item-list-stone {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     grid-template-columns: auto;
   }
 
@@ -13336,6 +13336,9 @@ header.main-header.header-stone .header-sticky.active {
   }
   .footer-copyright-stone {
     margin-top: 0;
+  }
+  .benefits-item-list-stone .col-xs-12 {
+    margin-top: 20px;
   }
 }
 .our-testimonials .service-entry {
