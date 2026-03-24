@@ -790,7 +790,7 @@ header.main-header .header-sticky.active {
   font-weight: 900;
   font-size: 12px;
   margin-left: 8px;
-  color: var(--primary-color);
+  color: #fff;
   position: absolute;
   right: 15px;
   top: 50%;
@@ -3514,9 +3514,9 @@ header.main-header .header-sticky.active {
   filter: brightness(0) invert(1);
 }
 
-.approach-item-content {
+/* .approach-item-content {
   width: calc(100% - 80px);
-}
+} */
 
 .approach-item-content h3 {
   font-size: 20px;
@@ -3525,6 +3525,7 @@ header.main-header .header-sticky.active {
 
 .approach-item-content p {
   margin: 10px 0 0;
+  text-align: justify;
 }
 
 .what-we-do-box {
@@ -6655,7 +6656,7 @@ header.main-header .header-sticky.active {
   }
 
   .our-approach {
-    padding: 50px 0;
+    padding: 0 0;
   }
 
   .approach-counter-item {
@@ -6689,10 +6690,10 @@ header.main-header .header-sticky.active {
   .approach-item .icon-box img {
     max-width: 24px;
   }
-
+  /* 
   .approach-item-content {
     width: calc(100% - 65px);
-  }
+  } */
 
   .what-we-do .container-fluid {
     padding: 0;
@@ -7497,6 +7498,7 @@ header.main-header .header-sticky.active {
 
   .approach-item-content h3 {
     font-size: 18px;
+    margin-top: 20px;
   }
 
   .what-we-do-image img {
@@ -13304,6 +13306,36 @@ header.main-header.header-stone .header-sticky.active {
   }
   .footer-links-stone {
     margin-top: 35px;
+  }
+  .approach-item {
+    display: inline-block;
+  }
+  .approach-image-box {
+    margin-top: 35px;
+  }
+  .our-approach-content .section-title h2 {
+    font-size: 18px;
+  }
+  .breadcrumb h2 {
+    font-size: 19px;
+  }
+  .breadcrumb {
+    margin-bottom: 20px;
+  }
+  .our-testimonial-content {
+    margin-bottom: 0;
+  }
+  .page-projects {
+    padding: 0 0 20px;
+  }
+  .page-gallery {
+    padding: 20px 0 0px;
+  }
+  .main-footer-stone {
+    padding: 0;
+  }
+  .footer-copyright-stone {
+    margin-top: 0;
   }
 }
 .our-testimonials .service-entry {
