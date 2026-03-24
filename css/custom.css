@@ -10810,7 +10810,7 @@ header.main-header.header-stone .header-sticky.active {
 .benefits-item-stone {
   /* width: calc(33.33% - 20px); */
   /* min-height: 320px; */
-  background: var(--dark-divider-color);
+  background: #219cc475;
   backdrop-filter: blur(20px) saturate(100%);
   -webkit-backdrop-filter: blur(20px) saturate(100%);
   border-radius: 10px 10px 0 0;
