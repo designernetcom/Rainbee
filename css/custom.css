@@ -5415,9 +5415,9 @@ header.main-header .header-sticky.active {
 /***   	29. Image Gallery css	  ***/
 /************************************/
 
-.page-gallery {
+/* .page-gallery {
   padding: 100px 0 70px;
-}
+} */
 
 .page-gallery-box .photo-gallery {
   height: calc(100% - 30px);
@@ -5445,7 +5445,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .page-video-gallery {
-  padding: 100px 0 70px;
+  padding: 30px 0 20px;
 }
 
 .video-gallery-image {
@@ -8091,7 +8091,7 @@ header.main-header.header-metal .header-sticky.active {
 }
 
 .about-us-image-counter-metal h2 {
-  background: url("../images/about.jpg");
+  background: url("../images/about1.avif");
   background-size: cover;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13305,4 +13305,7 @@ header.main-header.header-stone .header-sticky.active {
   .footer-links-stone {
     margin-top: 35px;
   }
+}
+.our-testimonials .service-entry {
+  margin-bottom: 5px;
 }
