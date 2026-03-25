@@ -11620,7 +11620,7 @@ header.main-header.header-stone .header-sticky.active {
   padding: 50px 0 0;
   margin-bottom: 20px;
   background-image:
-    linear-gradient(135deg, #2bb3c0b3, #000), url(/images/footer-banner.jpeg);
+    linear-gradient(135deg, #2bb3c0b3, #000), url("/images/footer-banner.jpeg");
 }
 
 .footer-header-stone {
