@@ -2951,6 +2951,7 @@ header.main-header .header-sticky.active {
   cursor: none;
   display: block;
   border-radius: 10px;
+  border: 2px solid #000;
   overflow: hidden;
 }
 
@@ -10352,7 +10353,7 @@ header.main-header.header-stone .header-sticky.active {
 }
 
 .hero-content-stone .section-title h1 {
-  font-size: 90px;
+  font-size: 65px;
 }
 
 .hero-btn-stone {
@@ -13156,7 +13157,7 @@ header.main-header.header-stone .header-sticky.active {
 }
 .hero-content-stone .section-title h3 {
   color: black;
-  font-size: 17px;
+  font-size: 23px;
 }
 .our-services-stone .section-title h3 {
   color: black;
@@ -13281,7 +13282,7 @@ header.main-header.header-stone .header-sticky.active {
   margin-bottom: 30px;
 }
 .our-testimonials .service-entry h6 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .our-blog .section-row {
   margin-bottom: 40px;
