@@ -567,7 +567,7 @@ header.main-header .header-sticky.active {
 }
 
 .navbar-brand {
-  padding: 0;
+  padding: 5px 0;
   margin: 0;
 }
 
@@ -12851,7 +12851,7 @@ header.main-header.header-stone .header-sticky.active {
   }
 }
 .navbar-brand img {
-  width: 135px;
+  width: 120px;
 }
 .icon-box img {
   width: 25px;
